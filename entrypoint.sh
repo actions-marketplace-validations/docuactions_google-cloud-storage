@@ -14,6 +14,9 @@ fi
 
 echo "$GCS_SERVICE_KEY" > /tmp/gcs-service-key.json
 
+echo "===================== GOOGLE CLOUD VERSION ====================="
+gcloud version
+
 echo "Install yarn"
 npm install -g yarn --force
 
